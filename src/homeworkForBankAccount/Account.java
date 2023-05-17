@@ -1,10 +1,10 @@
-package interfaces;
+package homeworkForBankAccount;
 
 public interface Account {
 
     double getBalance();
-    double deposit(double amount);
-    double withdraw(double amount);
+    void deposit(double amount);
+    void withdraw(double amount);
     boolean balance ();
     String getAccountNumber();
     String getOwnerName();
